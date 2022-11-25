@@ -2,13 +2,35 @@
 /* ESPACIADOS */
 /* FUENTES */
 /* TAMANIOS DE FUENTE*/
+/* BREAKPOINTS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
-ul {
-  list-style-type: none; }
-
 a {
   text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0rem;
+  font-size: 1.6rem; }
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 0.5rem; }
+  .navbar .link {
+    color: black;
+    background-color: #fafafa;
+    border: 0.6rem solid #fafafa;
+    border-radius: 3rem;
+    transition: all .2s ease-in-out; }
+    .navbar .link:hover {
+      font-size: 1.5rem; }

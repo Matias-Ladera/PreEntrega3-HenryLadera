@@ -1,0 +1,23 @@
+
+.header{
+    @include grid-header(5 , 0rem);
+    font-size: $font-p;
+}
+.navbar{
+        @include posicion(center, center);
+        background-color: $color-secondary;
+        padding: 0.5rem;
+    .link{
+        color:$color-secondary;
+        background-color: $color-primary;
+        border: 0.6rem solid $color-primary;
+        border-radius: 3rem;
+        transition: all .2s ease-in-out;
+    &:hover{
+        font-size: 1.5rem;
+    }
+    }
+}
+
+
+
