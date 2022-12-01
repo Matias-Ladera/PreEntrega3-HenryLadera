@@ -1,4 +1,10 @@
+
 @import "./utilities/variables";
 @import "./utilities/reset.scss";
 @import "./utilities/mixin.scss";
-@import "./layout/header"
+@import "./layout/header";
+@import "./pages/home.scss";
+@import "./pages/bio.scss";
+@import "./pages/galery.scss";
+@import "./layout/footer";
+@import "./layout/responsive.scss";

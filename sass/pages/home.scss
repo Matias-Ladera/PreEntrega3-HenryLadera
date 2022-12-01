@@ -1,3 +1,23 @@
-.header{
-    @include grid(5 , 1em)
+.main{
+    width:auto;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    &__article{
+        justify-content: center;
+        align-self: center;
+        &--title{
+            font-family: 'Raleway', sans-serif;
+            color:$color-primary;
+            padding-bottom: 1rem;
+            font-size: $font-xxl;
+        }
+    &--parrafo{
+        font-family: 'Raleway', sans-serif;
+        color:$color-primary;
+        font-size: $font-xl;
+    }
+    }
 }
+

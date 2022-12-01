@@ -1,0 +1,83 @@
+/* ----------DISENO RESPONSIVE----------*/
+
+/* EXTRA SMALL*/
+@media screen and (max-width: $xs) {
+    body{
+        background-image: url(../../assets/images/duki-responsive-2.jpg);
+        background-repeat:no-repeat;   
+        background-size:cover;
+    }
+    .header{
+        @include grid-header(1 ,5, 0rem);
+    .link{
+        font-size: $font-sm;
+    }
+    }
+    .footer{
+        &__div--link{
+            font-size: $font-xs;
+        }
+        &__parrafo{
+            font-size: $font-xs;
+        }
+    }
+    .main{
+        &__article--title{
+            font-size: $font-lg;
+            margin: 0rem 1rem 0rem 1rem;
+        }
+        &__article--parrafo{
+            font-size: $font-md;
+            margin: 0rem 1rem 0rem 1rem;
+        }
+    }
+}
+/* SMALL*/
+@media screen and (min-width: $sm) and (max-width:$md){
+    body{
+        background-image: url(../../assets/images/duki-responsive.jpg);
+        background-repeat:no-repeat;   
+        background-size:cover;
+    }
+    .header{
+        @include grid-header(1 ,5, 0rem);
+    }
+    .footer{
+        &__div--link{
+            font-size: $font-sm;
+            
+        }
+        &__parrafo{
+            font-size: $font-sm;
+            margin: 0rem 1rem 0rem 1rem;
+        }
+    }
+    .main{
+        &__article--title{
+            font-size: $font-xl;
+            margin: 0rem 1rem 0rem 1rem;
+        }
+        &__article--parrafo{
+            font-size: $font-lg;
+            margin: 0rem 1rem 0rem 1rem;
+        }
+    }
+}
+
+/* MEDIUM*/
+@media screen and (min-width: $md) {
+
+}
+
+/* LARGE*/
+@media screen and (min-width: $lg) {
+
+}
+
+/* EXTRA LARGE*/
+@media screen and (min-width: $xl) {
+}
+
+/* EXTRA EXTRA LARGE*/
+@media screen and (max-width: $xxl) {
+}

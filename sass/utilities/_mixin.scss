@@ -1,8 +1,9 @@
 
-@mixin grid-header ($columnas, $espacio) {
+@mixin grid-header ($columnas, $filas,  $espacio) {
 
     display: grid;
     grid-template-columns: repeat($columnas, 1fr);
+    grid-template-rows: repeat($filas, 1fr);
     gap: $espacio;
 }
 
@@ -11,3 +12,5 @@
     justify-content:$justify;
     align-items:$align;
 }
+
+

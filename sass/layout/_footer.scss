@@ -1,0 +1,36 @@
+
+
+.footer{
+    @include grid-header(3, 2, 0rem);
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    grid-template-areas: 
+    "n1 n2 n3"
+    "n4 n4 n4";
+    &__div--link{
+        font-family: 'Montserrat', sans-serif;
+        font-size: $font-sm;
+        text-align: center;
+        color: $color-primary;
+    }
+    &__parrafo{
+        font-size: $font-sm;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: $color-terciario;
+        padding-bottom:5px;
+    }
+}
+
+$grid-area:(n1, n2, n3, n4);
+@for $i from 1 to 5 {
+    .footer__div#{$i}{
+        display: flex;
+        justify-content: center;
+        background-color: $color-secondary;
+        grid-area: nth($grid-area , $i);
+        padding-top:1rem;
+    }
+}
+

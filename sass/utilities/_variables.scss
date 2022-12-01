@@ -1,10 +1,21 @@
 /* COLORES */
 $color-primary: rgb(250, 250, 250);
 $color-secondary: rgb(0, 0, 0);
-/* ESPACIADOS */
+$color-terciario: rgb(146, 146, 146);
 /* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@700&display=swap');
 /* TAMANIOS DE FUENTE*/
-$font-p: 1.6rem;
-$font-h1: 3.0rem;
-$font-h2: 2.5rem;
+$font-xs: 1rem;
+$font-sm: 1.4rem;
+$font-md: 1.8rem;
+$font-lg: 2.2rem;
+$font-xl: 3rem;
+$font-xxl: 5rem;
 /* BREAKPOINTS */
+$xs:576px;
+$sm:576px;
+$md:768px;
+$lg:992px;
+$xl:1200px;
+$xxl:1400px;
+

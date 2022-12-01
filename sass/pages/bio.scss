@@ -1,0 +1,29 @@
+.section{
+    .article{
+        margin-top: 2rem;
+    &__title{
+        display: flex;
+        justify-content: center;
+        justify-content: center;
+        font-family: 'Raleway', sans-serif;
+        color: $color-primary;
+        font-size: $font-xl;
+        background-color: $color-secondary;
+        border-radius: 3rem;
+    }
+    &__text{
+    margin: 1.8rem;
+    padding: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $font-xs;
+    color: $color-primary;
+    border-radius:2.8vh ;
+    background-color: $color-secondary;
+    }
+    &__subtitle{
+    font-family: 'Raleway', sans-serif;
+    color: $color-primary ;
+    font-size:$font-xl;
+    }
+    }
+}

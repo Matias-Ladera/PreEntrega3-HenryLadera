@@ -1,0 +1,10 @@
+.section__duki{
+    @include grid-header (2,2, 0rem);
+    &--div{
+        display:flex;
+        justify-content: center;
+    }
+    &--img{
+        width: 70%;
+    }
+}
