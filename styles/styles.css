@@ -1,9 +1,4 @@
 /* UTILIDADES */
-/* COLORES */
-/* FUENTES */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@700&display=swap");
-/* TAMANIOS DE FUENTE*/
-/* BREAKPOINTS */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +11,7 @@ li {
   list-style-type: none; }
 
 body {
-  background-image: url(../../assets/images/duki_web_2_edited.jpg);
+  background-image: url(./.././assets/images/duki_web_2_edited.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -26,6 +21,10 @@ body {
 html {
   scroll-behavior: smooth; }
 
+/* COLORES */
+/* FUENTES */
+/* TAMANIOS DE FUENTE*/
+/* BREAKPOINTS */
 /* PAGINAS */
 .main {
   width: auto;
