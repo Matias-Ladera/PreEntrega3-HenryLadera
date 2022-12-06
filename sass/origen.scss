@@ -1,10 +1,14 @@
 
+/* UTILIDADES */
 @import "./utilities/variables";
 @import "./utilities/reset.scss";
 @import "./utilities/mixin.scss";
-@import "./layout/header";
+/* PAGINAS */
 @import "./pages/home.scss";
 @import "./pages/bio.scss";
 @import "./pages/galery.scss";
+@import "./pages/disco.scss";
+/* LAYOUT */
+@import "./layout/header";
 @import "./layout/footer";
 @import "./layout/responsive.scss";

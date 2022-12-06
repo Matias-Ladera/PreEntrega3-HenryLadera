@@ -22,7 +22,6 @@
         padding-bottom:5px;
     }
 }
-
 $grid-area:(n1, n2, n3, n4);
 @for $i from 1 to 5 {
     .footer__div#{$i}{

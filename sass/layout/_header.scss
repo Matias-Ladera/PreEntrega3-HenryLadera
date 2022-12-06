@@ -1,7 +1,7 @@
 
 .header{
     @include grid-header(5 ,1, 0rem);
-    background-color: black;
+    background-color: $color-secondary;
 }
     .navbar{
     display: flex;
@@ -11,16 +11,15 @@
 }
     .link{
         font-family: 'Montserrat', sans-serif;
+        padding: 0.5rem;
         font-size: $font-sm;
         color:$color-secondary;
         background-color: $color-primary;
-        border: 0.5rem solid $color-primary;
         border-radius: 3rem;
         transition: all .1s ease-in-out;
     &:hover{
-        font-size: $font-md;
-        background-color: #8B43C1;
-        border: 0.3rem solid #8B43C1;
+        font-size: 1.3rem;
+        background: linear-gradient(76deg, #FF54FF 0%, #6D32FF 100%);
     }
 }
 
