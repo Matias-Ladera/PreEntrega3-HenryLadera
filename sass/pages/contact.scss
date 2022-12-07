@@ -1,0 +1,29 @@
+.section__form{
+    width: 24rem;
+    background: #000;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "raleway" ,sans-serif;
+    border-radius: 1rem;
+    border: 0.3rem solid rgb(86, 3, 180)    ;
+    &--title{
+        color: white;
+        font-size: $font-xl;
+        padding: 2rem;
+    }
+    &--input{
+        background-color: #000;
+        border: solid rgb(86, 3, 180);
+        border-radius: 1rem;
+        padding: 0.6rem;
+        margin: 0.4rem;
+        font-size: 1rem;
+        font-family: "raleway" ,sans-serif;
+    }
+    &--btn{
+    }
+}

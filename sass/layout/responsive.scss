@@ -3,7 +3,7 @@
 /* EXTRA SMALL*/
 @media screen and (max-width: $xs) {
     body{
-        background-image: url(../../assets/images/duki-responsive-2.jpg);
+        background-image: url(./.././assets/images/duki-responsive.jpg);
         background-repeat:no-repeat;   
         background-size:cover;
     }
@@ -35,7 +35,7 @@
 /* SMALL*/
 @media screen and (min-width: $sm) and (max-width:$md){
     body{
-        background-image: url(../../assets/images/duki-responsive.jpg);
+        background-image: url(./.././assets/images/duki-responsive-2.jpg);
         background-repeat:no-repeat;   
         background-size:cover;
     }

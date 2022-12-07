@@ -149,6 +149,31 @@ span {
   border-radius: 3rem;
   margin: 1rem; }
 
+.section__form {
+  width: 24rem;
+  background: #000;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "raleway" ,sans-serif;
+  border-radius: 1rem;
+  border: 0.3rem solid #5603b4; }
+  .section__form--title {
+    color: white;
+    font-size: 3rem;
+    padding: 2rem; }
+  .section__form--input {
+    background-color: #000;
+    border: solid #5603b4;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    margin: 0.4rem;
+    font-size: 1rem;
+    font-family: "raleway" ,sans-serif; }
+
 /* LAYOUT */
 .header {
   display: grid;
@@ -228,7 +253,7 @@ span {
 /* EXTRA SMALL*/
 @media screen and (max-width: 576px) {
   body {
-    background-image: url(../../assets/images/duki-responsive-2.jpg);
+    background-image: url(./.././assets/images/duki-responsive.jpg);
     background-repeat: no-repeat;
     background-size: cover; }
   .header {
@@ -252,7 +277,7 @@ span {
 /* SMALL*/
 @media screen and (min-width: 576px) and (max-width: 768px) {
   body {
-    background-image: url(../../assets/images/duki-responsive.jpg);
+    background-image: url(./.././assets/images/duki-responsive-2.jpg);
     background-repeat: no-repeat;
     background-size: cover; }
   .header {
