@@ -9,5 +9,9 @@
         margin:1rem 0rem 1rem 0rem;
         border:#000000 solid 0.5rem;
         border-radius: 2rem;
+        transition: all .1s ease-in-out;
+        &:hover{
+            width: 70%;
+    }
     }
 }

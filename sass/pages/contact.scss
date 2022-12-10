@@ -23,7 +23,16 @@
         margin: 0.4rem;
         font-size: 1rem;
         font-family: "raleway" ,sans-serif;
+        color: rgb(255, 255, 255);
     }
     &--btn{
-    }
+        margin-top: 0.9rem;
+        padding: 0.3rem;
+        color: rgb(255, 255, 255);
+        background-color: rgb(116, 5, 168);
+        border: solid rgb(86, 3, 180);
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-family: "raleway" ,sans-serif;
+    }   
 }

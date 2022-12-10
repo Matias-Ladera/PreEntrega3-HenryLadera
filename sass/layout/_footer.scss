@@ -13,13 +13,13 @@
         font-size: $font-sm;
         text-align: center;
         color: $color-primary;
+        padding-top:0.8rem;
     }
     &__parrafo{
         font-size: $font-sm;
         font-family: 'Montserrat', sans-serif;
-        text-align: center;
         color: $color-terciario;
-        padding-bottom:5px;
+        text-align: center;
     }
 }
 $grid-area:(n1, n2, n3, n4);
@@ -29,7 +29,6 @@ $grid-area:(n1, n2, n3, n4);
         justify-content: center;
         background-color: $color-secondary;
         grid-area: nth($grid-area , $i);
-        padding-top:1rem;
     }
 }
 

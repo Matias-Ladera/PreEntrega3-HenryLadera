@@ -2,82 +2,215 @@
 
 /* EXTRA SMALL*/
 @media screen and (max-width: $xs) {
-    body{
+    body {
         background-image: url(./.././assets/images/duki-responsive.jpg);
-        background-repeat:no-repeat;   
-        background-size:cover;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    .header{
-        @include grid-header(1 ,5, 0rem);
-    .link{
-        font-size: $font-sm;
-    }
-    }
-    .footer{
-        &__div--link{
-            font-size: $font-xs;
-        }
-        &__parrafo{
-            font-size: $font-xs;
+
+    .header {
+        @include grid-header(1, 5, 0rem);
+
+        .link {
+            font-size: $font-sm;
         }
     }
-    .main{
-        &__article--title{
+
+    .navbar {
+        padding: 0.4rem;
+    }
+
+    .footer {
+        &__div--link {
+            font-size: $font-xs;
+        }
+
+        &__parrafo {
+            font-size: $font-xs;
+        }
+    }
+
+    .main {
+        .span {
+            font-size: 2.2rem;
+            margin: 0rem 1rem 1.3rem 1rem;
+        }
+
+        &__article--parrafo {
+            font-size: 2rem;
+            margin: 0rem 1rem 0rem 1rem;
+        }
+    }
+
+    .section__duki {
+        @include grid-header (1, 4, 0rem);
+    }
+
+    .section__music {
+        @include grid-header (1, 5, 0rem);
+    }
+
+    .section__video {
+        @include grid-header (1, 3, 0rem);
+    }
+
+    .section__form {
+        width: 20rem;
+        margin-bottom: 3rem;
+
+        &--title {
             font-size: $font-lg;
-            margin: 0rem 1rem 0rem 1rem;
         }
-        &__article--parrafo{
+    }
+    .article {
+        .article__title {
             font-size: $font-md;
-            margin: 0rem 1rem 0rem 1rem;
         }
+    }
+    .article__title {
+        font-size: $font-md;
     }
 }
+
+
 /* SMALL*/
-@media screen and (min-width: $sm) and (max-width:$md){
-    body{
+@media screen and (min-width: $sm) and (max-width:$md) {
+    body {
         background-image: url(./.././assets/images/duki-responsive-2.jpg);
-        background-repeat:no-repeat;   
-        background-size:cover;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-    .header{
-        @include grid-header(1 ,5, 0rem);
-    }
-    .footer{
-        &__div--link{
+
+
+    .header {
+        @include grid-header(1, 5, 0rem);
+
+        .link {
             font-size: $font-sm;
-            
         }
-        &__parrafo{
-            font-size: $font-sm;
+    }
+
+    .navbar {
+        padding: 0.4rem;
+    }
+
+    .footer {
+        &__div--link {
+            font-size: $font-xs;
+        }
+
+        &__parrafo {
+            font-size: $font-xs;
+        }
+    }
+
+    .main {
+        .span {
+            font-size: 3.4rem;
             margin: 0rem 1rem 0rem 1rem;
         }
-    }
-    .main{
-        &__article--title{
+
+        &__article--parrafo {
             font-size: $font-xl;
             margin: 0rem 1rem 0rem 1rem;
         }
-        &__article--parrafo{
+    }
+
+    .section__duki {
+        @include grid-header (1, 4, 0rem);
+    }
+
+    .section__music {
+        @include grid-header (1, 5, 0rem);
+    }
+
+    .section__video {
+        @include grid-header (1, 3, 0rem);
+    }
+
+    .section__form {
+        width: 30rem;
+        margin-bottom: 1rem;
+
+        &--title {
             font-size: $font-lg;
-            margin: 0rem 1rem 0rem 1rem;
+        }
+    }
+
+    .article {
+        .article__title {
+            font-size: $font-md;
         }
     }
 }
 
 /* MEDIUM*/
-@media screen and (min-width: $md) {
+@media screen and (min-width: $md) and (max-width: $lg) {
+        .header {
+        @include grid-header(1, 5, 0rem);
+
+        .link {
+            font-size: $font-sm;
+        }
+    }
+
+    .navbar {
+        padding: 0.4rem;
+    }
+
+    .footer {
+        &__div--link {
+            font-size: $font-xs;
+        }
+
+        &__parrafo {
+            font-size: $font-xs;
+        }
+    }
+
+    .main {
+        .span {
+            font-size: 3.4rem;
+            margin: 0rem 1rem 0rem 1rem;
+        }
+
+        &__article--parrafo {
+            font-size: $font-xl;
+            margin: 0rem 1rem 0rem 1rem;
+        }
+    }
+
+    .section__duki {
+        @include grid-header (1, 4, 0rem);
+    }
+
+    .section__music {
+        @include grid-header (1, 5, 0rem);
+    }
+
+    .section__video {
+        @include grid-header (1, 3, 0rem);
+    }
+
+    .section__form {
+        width: 30rem;
+        margin-bottom: 1rem;
+
+        &--title {
+            font-size: $font-lg;
+        }
+    }
+
+    .article {
+        .article__title {
+            font-size: $font-md;
+        }
+    }
 
 }
 
 /* LARGE*/
-@media screen and (min-width: $lg) {
-
-}
+@media screen and (min-width: $lg) and (max-width: $xl) {}
 
 /* EXTRA LARGE*/
-@media screen and (min-width: $xl) {
-}
-
-/* EXTRA EXTRA LARGE*/
-@media screen and (max-width: $xxl) {
-}
+@media screen and (min-width: $xl) and (max-width: $xxl) {}
